@@ -11,22 +11,55 @@
     </head>
       
     <body>
-        <header>
-          <h1 class="name-input">honore.</h1>
-
-          <hr>
-          
+        <header #="home">
+          <h1 class="name-input"><a href="#home" style= "text-decoration: none";>honore.</a></h1>
           <div class="nav-bar">
             <ul>
-              <li class="home"><a href="#" style= "text-decoration: none";></a>HOME</a></li>
-              <li class="inspo"><a href="#" style= "text-decoration: none";>INSPIRATION</a></li>
-              <li class="about"><a href="#" style= "text-decoration: none";>ABOUT</a></li>
-              <li class="contact"><a href="#" style= "text-decoration: none";>CONTACT</a></li>
+              <li class="home"><a href="#home" style= "text-decoration: none";>HOME</a></li>
+              <li class="inspo"><a href="#inspo" style= "text-decoration: none";>INSPIRATION</a></li>
+              <li class="about"><a href="#about-me" style= "text-decoration: none";>ABOUT</a></li>
+              <li class="contact"><a href="#contact" style= "text-decoration: none";>CONTACT</a></li>
             </ul>
           </div>
+          <hr class="line-2">
         </header>
         <section>
             <h2 class="intro">WELCOME TO MY PORTFOLIO</h2>
         </section>
+
+        <section #="images">
+          <hr class="line-3">
+          <!-- need to create gallery-->
+        </section>
+
+        <section #="about-me">
+          <H3 class="about-me"> about me.</H3>
+          <div>
+            <p class="about-text">
+              Hello! My name is Honore. I was born and raised in Austin TX. 
+              My interests include coding, graphic design, knitting, and piliosophy. 
+              I’m currently attending a UT coding bootcamp to improve my skill set and learn some new tricks of the trade! 
+              I hope you enjoy my portfolio!
+            </p>
+          </div>
+          <div>
+            <!-- include image-->
+          </div>
+        </section>
+
+        <section #="contact">
+          <h3 class="contact-info"> contact.</h3>
+          <div>
+            <!-- insert contact form-->
+          </div>
+          <div>
+            <!-- insert card links-->
+          </div>
+        </section>
+        <footer class-="footer">
+          <h3 class="thank-you"> thank you.</h3>
+        </footer>
+
+
     <body>
 </html>
