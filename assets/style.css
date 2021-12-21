@@ -1,0 +1,276 @@
+* {
+    background-color: #FFF0F0;
+}
+
+/* received from figma*/
+.name-input {
+/* position: fixed;
+width: 1017px;
+height: 290px;
+left: 212px;
+top: 76px;
+*/
+position: fixed;
+width: 1017px;
+height: 290px;
+left: 420px;
+top: -27px;
+
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 150px;
+line-height: 297px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.11em;
+
+color: #1A3914;
+background: #FFF0F0;
+}
+
+.nav-bar {
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.32em;
+
+color: #1A3914;
+background-color: white;
+padding: auto;
+}
+
+
+
+.home {
+/*
+position: fixed;
+width: 408px;
+height: 53px;
+left: -38.9px;
+top: 30.38px;
+list-style-type: none;
+*/
+position: fixed;
+width: 409.92px;
+height: 80.29px;
+left: -38.81px;
+top: 196px;
+}
+
+.inspo {
+/*
+position: fixed;
+width: 408px;
+height: 53px;
+left: 312.09px;
+top: 33.63px;
+list-style-type: none;
+text-decoration: none;
+*/
+position: fixed;
+width: 409.92px;
+height: 80.29px;
+left: 313.83px;
+top: 200.92px;
+}
+
+
+.about {
+/*
+position: fixed;
+width: 408px;
+height: 53px;
+left: 684.09px;
+top: 34.95px;
+list-style-type: none;
+text-decoration: none;
+}
+*/
+position: fixed;
+width: 409.92px;
+height: 80.29px;
+left: 687.57px;
+top: 202.92px;
+}
+
+.contact {
+/*
+position: fixed;
+width: 408px;
+height: 53px;
+left: 1025.1px;
+top: 34.17px;
+list-style-type: none;
+text-decoration: none;
+}
+*/
+position: absolute;
+width: 409.92px;
+height: 80.29px;
+left: 1030.17px;
+top: 201.73px;
+}
+
+.intro {
+position: absolute;
+width: 1103px;
+height: 290px;
+left: 173px;
+top: 370px;
+
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 120px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.11em;
+
+color: #1A3914;
+}
+
+/* honore.
+position: absolute;
+width: 1017px;
+height: 290px;
+left: 216px;
+top: -27px;
+
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 170px;
+line-height: 201px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.11em;
+
+color: #1A3914;
+
+*/
+
+/* HOME
+position: absolute;
+width: 409.92px;
+height: 80.29px;
+left: -38.81px;
+top: 196px;
+
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.32em;
+
+color: #1A3914;
+
+transform: matrix(1, 0.01, 0, 1, 0, 0);
+*/
+
+/* INSPIRATION
+position: absolute;
+width: 409.92px;
+height: 80.29px;
+left: 313.83px;
+top: 200.92px;
+
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;*
+text-align: center;
+letter-spacing: 0.32em;
+
+color: #1A3914;
+
+transform: matrix(1, 0.01, 0, 1, 0, 0);
+*/
+
+/* ABOUT
+
+
+position: absolute;
+width: 409.92px;
+height: 80.29px;
+left: 687.57px;
+top: 202.92px;
+
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.32em;
+
+color: #1A3914;
+
+transform: matrix(1, 0.01, 0, 1, 0, 0);
+
+
+/* CONTACT
+
+
+position: absolute;
+width: 409.92px;
+height: 80.29px;
+left: 1030.17px;
+top: 201.73px;
+
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.32em;
+
+color: #1A3914;
+
+transform: matrix(1, 0.01, 0, 1, 0, 0);
+
+
+/* Line 1
+
+
+position: absolute;
+width: 1379px;
+height: 0px;
+left: 34px;
+top: 196px;
+
+border: 1px solid #000000;
+
+
+/* Line 5
+
+
+position: absolute;
+width: 1379px;
+height: 0px;
+left: 34px;
+top: 285px;
+
+border: 1px solid #000000;
+*/
