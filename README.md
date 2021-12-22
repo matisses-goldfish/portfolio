@@ -1,7 +1,12 @@
 # Portfolio: 02 Homework 💼
 * Editor: Honore Nelson
 * Date: 12/21/21
-* Link: https://matisses-goldfish.github.io/portfolio/
+* Link: https://matisses-goldfish.github.io/Portfolio/
+* External Sources: 
+    * CSS concepts and Element Placement (figma.com) 
+    * contact form (https://www.w3schools.com/howto/howto_css_contact_form.asp)
+    * Google fonts (https://fonts.google.com/)
+
 
 ## Purpose of Homework (reference)
 "A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies."
@@ -64,12 +69,5 @@ My main goal of this project is to create a website that highlights my tallents 
 
 ---
 
-## Step 3 pt. 1: Edited html Code and Notes
-![Screenshot of Starter html Code with Notes]()
-
----
-
-## Step 3 pt. 2: Edited CSS Code and Notes
-![screenshot of css with notes]()
-
----
+## Step 3: Edited html Code and Notes
+![Screenshot of Starter html Code with Notes](./assets/images/code.notes.png)
