@@ -1,199 +1,389 @@
 * {
     background-color: #FFF0F0;
 }
+
 a { 
 color: inherit; 
 } 
+ 
+header {
+    background-color: #FFF0F0;
+}
 
-
-/* received from figma*/
 .name-input {
-position: fixed;
-width: 1017px;
-height: 290px;
-left: 420px;
-top: -27px;
+    z-index: 1;
+    position: absolute;
+    padding: 30px;
+    height: 0;
+    width: 1017px;
+    left: 420px;
+    top: 50px;
 
-font-family: Abhaya Libre ExtraBold;
-font-style: normal;
-font-weight: 800;
-font-size: 150px;
-line-height: 297px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.11em;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 140px;
+    line-height: 297px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.11em;
 
-color: #1A3914;
+    color: #1A3914;
 }
 
 .nav-bar {
-font-family: Actor;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 60px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.32em;
+    overflow: hidden;
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.18em;
 
-color: #1A3914;
+    color: #1A3914;
+    z-index:1
 }
 
 
 
 .home {
-position: fixed;
-width: 409.92px;
-height: 80.29px;
-left: -38.81px;
-top: 196px;
+    z-index: 1;
+    position: absolute;
+    width: 409.92px;
+    height: 80.29px;
+    left: -38.81px;
+    top: 150px;
 }
 
 .inspo {
-position: fixed;
-width: 409.92px;
-height: 80.29px;
-left: 313.83px;
-top: 200.92px;
+    z-index: 1;
+    position: absolute;
+    width: 409.92px;
+    height: 80.29px;
+    left: 313.83px;
+    top: 150px;
 }
 
 
 .about {
-position: fixed;
-width: 409.92px;
-height: 80.29px;
-left: 687.57px;
-top: 202.92px;
+    z-index: 1;
+    position: absolute;
+    width: 409.92px;
+    height: 80.29px;
+    left: 687.57px;
+    top: 150px;
 }
 
 .contact {
-position: fixed;
-width: 409.92px;
-height: 80.29px;
-left: 1030.17px;
-top: 201.73px;
+    z-index: 1;
+    position: absolute;
+    width: 409.92px;
+    height: 80.29px;
+    left: 1030.17px;
+    top: 150px;
 }
 
 .intro {
-position: absolute;
-width: 1103px;
-height: 290px;
-left: 173px;
-top: 370px;
-
-font-family: Actor;
-font-style: normal;
-font-weight: normal;
-font-size: 100px;
-line-height: 120px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.11em;
-
-color: #1A3914;
+    position: absolute;
+    width: 1015px;
+    height: 255px;
+    left: 212px;
+    top: 348px;
+    
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #1A3914;
 }
 
 .line-1 {
-position: fixed;
-width: 1379px;
-height: 0px;
-left: 34px;
-top: 196px;
+    z-index: 1;
+    position: absolute;
+    width: 1379px;
+    height: 0px;
+    left: 34px;
+    top: 145px;
 
-border: 1px solid #1A3914;
+    border: 1px solid #1A3914;
 }
 
 .line-2 {
-position: absolute;
-width: 1379px;
-height: 0px;
-left: 34px;
-top: 285px;
+    z-index: 1;
+    position: absolute;
+    width: 1379px;
+    height: 0px;
+    left: 34px;
+    top: 215px;
 
-border: 1px solid #1A3914;
+    border: 1px solid #1A3914;
+}
+
+.line-3 {
+    position: absolute;
+    width: 1379px;
+    height: 0px;
+    left: 30px;
+    top: 740px;
+
+    border: 1px solid #1A3914;
+}
+
+.line-4 {
+    position: absolute;
+    width: 1379px;
+    height: 0px;
+    left: 30px;
+    top: 1687px;
+
+    border: 1px solid #1A3914;
+}
+.line-5 {
+    position: absolute;
+    width: 1379px;
+    height: 0px;
+    left: 30px;
+    top: 2507px;
+
+    border: 1px solid #000000;
+}
+.projects {
+    position: absolute;
+    width: 2000px;
+    height: 96px;
+    left: 60px;
+    top: 800px;
+
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 177px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.11em;
+
+    color: #1A3914;
+
+}
+.img-1 {
+    position: absolute;
+    width: 1036px;
+    height: 656px;
+    left: 64px;
+    top: 941px;
+    border: 10px solid #1A3914;
+}
+.img-2 {
+    position: absolute;
+    width: 246px;
+    height: 189px;
+    left: 1159px;
+    top: 937px;
+    border: 5px solid #1A3914;
+}
+.img-3 {
+    position: absolute;
+    width: 246px;
+    height: 189px;
+    left: 1159px;
+    top: 1190px;
+    border: 5px solid #1A3914;
+}
+.img-4 {
+    position: absolute;
+    width: 246px;
+    height: 189px;
+    left: 1159px;
+    top: 1422px;
+    border: 5px solid #1A3914;
+
 }
 
 .about-me {
-position: absolute;
-width: 782px;
-height: 96px;
-left: 44px;
-top: 1737px;
+    position: absolute;
+    width: 782px;
+    height: 96px;
+    left: 80px;
+    top: 1737px;
 
-font-family: Abhaya Libre ExtraBold;
-font-style: normal;
-font-weight: 800;
-font-size: 110px;
-line-height: 177px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.11em;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 177px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.11em;
 
-color: #1A3914;
+    color: #1A3914;
 }
 
 .about-text {
-position: absolute;
-width: 612px;
-height: 581px;
-left: 92px;
-top: 1871px;
+    position: absolute;
+    width: 605px;
+    height: 581px;
+    left: 92px;
+    top: 1865px;
 
-font-family: Actor;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 49px;
-letter-spacing: 0.11em;
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 49px;
+    letter-spacing: 0.11em;
 
-color: #000000;
+    color: #1A3914;
+
+}
+.honore-img {
+    position: absolute;
+    width: 630px;
+    height: 615px;
+    left: 758px;
+    top: 1760px;
+
+    border-radius: 50%;
+    border: 10px solid #1A3914;
 
 }
 
 .contact-info {
-position: absolute;
-width: 782px;
-height: 96px;
-left: 460px;
-top: 2577px;
+    position: absolute;
+    width: 782px;
+    height: 96px;
+    left: 460px;
+    top: 2550px;
 
-font-family: Abhaya Libre ExtraBold;
-font-style: normal;
-font-weight: 800;
-font-size: 110px;
-line-height: 177px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.11em;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 177px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.11em;
 
-color: #1A3914;
-
-}
-
-.footer {
-background: #1A3914;
-}
-
-
-/*.thank-you {
-position: absolute;
-
-font-family: Abhaya Libre ExtraBold;
-font-style: normal;
-font-weight: 800;
-font-size: 100px;
-line-height: 118px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.11em;
-
-color: #FFF0F0;
+    color: #1A3914;
 
 }
-*/
+/* original form source credit: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+input[type=text], select, textarea {
+    width: 40%;
+    padding: 12px; 
+    border: 1px solid #1A3914; 
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Actor;
+    
+
+  }
+  
+  input[type=submit] {
+    background-color: #1A3914;
+    color: #FFF0F0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FFF0F0;
+    color: #1A3914;
+    border: 3px solid #1A3914;
+
+  }
+
+.container {
+    border-radius: 5px;
+    background-color: #FFF0F0;
+    padding: 20px;
+  }
+
+#fname {
+    position: absolute;
+    width: 385px;
+    height: 45px;
+    left: 320px;
+    top: 2748px;
+
+    background: #FFF0F0;
+}
+#email {
+    position: absolute;
+    width: 385px;
+    height: 45px;
+    left: 320px;
+    top: 2810px;
+
+    background: #FFF0F0;
+}
+#message {
+    position: absolute;
+    width: 363px;
+    height: 200px;
+    left: 730px;
+    top: 2748px;
+}
+
+#subject {
+    position: absolute;
+    width: 385px;
+    height: 45px;
+    left: 320px;
+    top: 2872px;
+}
+#submit {
+    position: absolute;
+    width: 222px;
+    height: 45px;
+    left: 320px;
+    top: 2934px;
+}
+/* from above source credit */
+
+.thank-you {
+    position: absolute;
+    width: 1056px;
+    height: 96px;
+    left: 350px;
+    top: 3100px;
+
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 118px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.11em;
+
+    color: #1A3914;
+
+}
+  
+  @media only screen and (max-width: 768px) {
+    body {
+        display: table;
+        table-layout: fixed;
+        width: 10%;
+    }
+  }
