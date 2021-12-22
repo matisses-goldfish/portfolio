@@ -7,18 +7,28 @@
         <link rel="stylesheet" href="./assets/style.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre"/>
-        <title>Portfolio</title>
+        <link rel="icon" href="./assets/images/free-heart-icon-492-thumb.png" type="image/icon type">
+        <title>honore.</title>
     </head>
       
     <body>
-        <header #="home">
-          <h1 class="name-input"><a href="#home" style= "text-decoration: none";>honore.</a></h1>
+        <header>
+          <h1 class="name-input" id="name-input">honore.</h1>
+          <hr class="line-1">
           <div class="nav-bar">
             <ul>
-              <li class="home"><a href="#home" style= "text-decoration: none";>HOME</a></li>
-              <li class="inspo"><a href="#inspo" style= "text-decoration: none";>INSPIRATION</a></li>
-              <li class="about"><a href="#about-me" style= "text-decoration: none";>ABOUT</a></li>
-              <li class="contact"><a href="#contact" style= "text-decoration: none";>CONTACT</a></li>
+              <a href="#name-input">
+                <li class="home" style= "text-decoration: none";>HOME</li>
+              </a>
+              <a href="#proj-code">
+                <li class="inspo"style= "text-decoration: none";>PROJECT</li>
+              </a>
+              <a href="#about-me">
+                <li class="about" style= "text-decoration: none";>ABOUT</li>
+              </a>
+              <a href="#contact-info">
+                <li class="contact" style= "text-decoration: none";>CONTACT</li>
+              </a>
             </ul>
           </div>
           <hr class="line-2">
@@ -27,13 +37,28 @@
             <h2 class="intro">WELCOME TO MY PORTFOLIO</h2>
         </section>
 
-        <section #="images">
-          <hr class="line-3">
-          <!-- need to create gallery-->
+        <section>
+          <hr class="line-3"  id="proj-code">
+          <h3 class="projects"> projects and code.</h3>
+          </div> 
+            <a href="https://matisses-goldfish.github.io/Code-Refactor"> 
+              <img class="img-1" src="./assets/images/project-1.png" alt="Project Example">
+            </a>
+            <a href="https://github.com/matisses-goldfish/Code-Refactor/blob/master/index.html">
+              <img class="img-2" src="./assets/images/Code-Example.png" alt="Project html">
+            </a>
+            <a href="https://github.com/matisses-goldfish/Code-Refactor/blob/master/css/style.css">
+              <img class="img-3" src="./assets/images/project-code.png" alt="Project CSS">
+            </a>
+            <a href="https://github.com/matisses-goldfish/Code-Refactor/blob/master/README.md">
+              <img class="img-4" src="./assets/images/project-readme.png" alt="project readme">
+            </a>
+          </div>
         </section>
 
-        <section #="about-me">
-          <H3 class="about-me"> about me.</H3>
+        <section  #="about-me">
+          <hr class="line-4">
+          <H3 class="about-me" id="about-me"> about me.</H3>
           <div>
             <p class="about-text">
               Hello! My name is Honore. I was born and raised in Austin TX. 
@@ -42,22 +67,31 @@
               I hope you enjoy my portfolio!
             </p>
           </div>
+      
           <div>
-            <!-- include image-->
+            <img class="honore-img" src="./assets/images/IMG_3471.JPG" alt="honore nelson">
           </div>
         </section>
+          <section>
+            <hr class="line-5" id="contact-info">
+            <h3 class="contact-info"> contact.</h3>
+              <div class="container">
+                <form action="action_page.php">
+              
+                  <input type="text" id="fname" name="firstname" placeholder="NAME">
+              
+                  <input type="text" id="email" name="email" placeholder="EMAIL">
 
-        <section #="contact">
-          <h3 class="contact-info"> contact.</h3>
-          <div>
-            <!-- insert contact form-->
-          </div>
-          <div>
-            <!-- insert card links-->
-          </div>
-        </section>
-        <footer class-="footer">
-          <h3 class="thank-you"> thank you.</h3>
+                  <input type="text" id="subject" name="subject" placeholder="SUBJECT">
+
+                  <textarea text-input id="message" name="text-input" placeholder="MESSAGE" style="height:200px"></textarea>
+              
+                  <input id="submit" type="submit" value="SUBMIT">
+              
+                </form>
+          </section>
+        <footer>
+          <h3 class="thank-you"> thank you, please come again!</h3>
         </footer>
 
 
