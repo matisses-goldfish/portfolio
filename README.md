@@ -1,7 +1,7 @@
 # Portfolio: 02 Homework 💼
 * Editor: Honore Nelson
 * Date: 12/21/21
-* Link: https://matisses-goldfish.github.io/Portfolio/
+* Link: https://matisses-goldfish.github.io/portfolio/
 * External Sources: 
     * CSS concepts and Element Placement (figma.com) 
     * contact form (https://www.w3schools.com/howto/howto_css_contact_form.asp)
